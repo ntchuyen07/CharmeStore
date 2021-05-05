@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Charme - Thời trang sự kiện thiết kế dành cho giới trẻ hàng đầu Việt Nam</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="cuoiky.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
+	<script>
+	$(document).ready(function(){
+	  $("#toggle").click(function(){
+	    $("#them").slideDown("slow");
+	  });
+	});
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-default" style="background-color:white;padding-left: 20px;color: white; height: 100px;width: 100%;position: fixed;border-radius: 0 0 50px 50px;top: 0;">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <li><img src="Images\logo_charme.png" width="220px" height="100px" style=" padding-right: 50px;"></li>
+	    </div>
+
+	    <ul class="nav nav-tabs" style="padding-top: 30px;border: none;">
+	      <li><a  href="home.html" style="color: black;">HOME</a></li>
+	      <li><a  href="Feedback.html" style="color: black;">FEEDBACK</a></li>
+	      <li><a  href="Blog.html" style="color: black;">BLOG</a></li>
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">NAM <span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="men.html">Tất cả </a></li>
+	          <li><a href="#">Áo </a></li>
+	          <li><a href="#">Áo khoác</a></li>
+	          <li><a href="#">Quần</a></li>
+	          <li><a href="#">Đồ bộ</a></li>
+	          <li><a href="#">Đồ đôi</a></li>
+	        </ul>
+	      </li>
+	     
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">NỮ<span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="women.html">Tất cả </a></li>
+	          <li><a href="#">Áo </a></li>
+	          <li><a href="#">Áo khoác</a></li>
+	          <li><a href="#">Quần</a></li>
+	          <li><a href="#">Váy</a></li>
+	          <li><a href="#">Váy thiết kế</a></li>
+	          <li><a href="#">Đồ bộ</a></li>
+	          <li><a href="#">Đồ đôi</a></li>
+	        </ul>
+	      </li>
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">ĐỒ ĐÔI <span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="couple.html">Tất cả </a></li>
+	          <li><a href="#">Áo đôi</a></li>
+	          <li><a href="#">Set đôi</a></li>
+	        </ul>
+	      </li>      
+	      <li style="padding-left: 10px;"><input type="text" name="Search" class="timkiem" placeholder="   Bạn cần tìm gì?"></li>
+	    </ul>
+
+	    <ul class="navbar-right" style="margin-top: -80px;">
+	      <li><a href="Giohang.html" class="notification" style="color: black;"><span class="	glyphicon glyphicon-shopping-cart"></span> Giỏ hàng<span style="background-color: red;position: absolute;top: -10px;right: -10px;padding: 5px 10px;border-radius: 50%;
+	  color: white;">3</span></a></li>
+	      <li onclick="document.getElementById('id02').style.display='block'" style="width:auto;"><a style="color: black;"><span class="glyphicon glyphicon-user"></span>Sign up</a></li>
+	      <li onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><a style="color: black;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div style="width: 100%;height: 100%;margin-top: 100px;">
+	<div class="id1">
+		<div class="vertical-menu">
+	      <a href="#" style="border-bottom: 2px solid #FFB6C1;"><b>ĐỒ ĐÔI</b></a>
+		  <a class="btn" href="#">Áo đôi </a>
+	      <a class="btn" href="#">Set đôi</a>
+		</div>
+	</div>
+	<div class="id2">
+		<p class="hienthi">Bạn đang xem:<span style="color: red;"> THỜI TRANG COUPLE</span></p>
+		<div id="hienthisp">
+			<div style="width: 100%;padding-left: 40px;display: inline-block;">
+				<div class="thesp1">
+					<a href="Aboutcouple.html"><img align="center" src="Images\cp4.png" class="anh"></a>
+					<a href="Aboutcouple.html"><p class="tensp">Set bạn thân JKD</p></a>
+					<p>Mã SP:QJ2310DH</p>
+					<p style="color: red;"><b>250,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp7.png" class="anh"></a>
+					<a href=""><p class="tensp">Set đôi mùa hè ngọt ngào</p></a>
+					<p>Mã SP:VHN015DH</p>
+					<p style="color: red;"><b>265,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp8.png" class="anh"></a>
+					<a href="#"><p class="tensp">Áo đôi tình nhân</p></a>
+					<p>Mã SP:CR0015DH</p>
+					<p style="color: red;"><b>145,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp9.png" class="anh"></a>
+					<a href=""><p class="tensp">Set bạn thân</p></a>
+					<p>Mã SP:CR0198DH</p>
+					<p style="color: red;"><b>365,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp10.png" class="anh"></a>
+					<a href=""><p class="tensp">Set bạn thân váy voan </p></a>
+					<p>Mã SP:QJ2310DH</p>
+					<p style="color: red;"><b>490,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp11.png" class="anh"></a>
+					<a href=""><p class="tensp">Set đôi mẹ và bé</p></a>
+					<p>Mã SP:SM2015DH</p>
+					<p style="color: red;"><b>270,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp12.png" class="anh"></a>
+					<a href=""><p class="tensp">Áo đôi bố và con trai</p></a>
+					<p>Mã SP:PL3241DH</p>
+					<p style="color: red;"><b>170,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp1.png" class="anh"></a>
+					<a href=""><p class="tensp">Set cổ trang CT</p></a>
+					<p>Mã SP:VHN015DH</p>
+					<p style="color: red;"><b>265,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp2.png" class="anh"></a>
+					<a href="#"><p class="tensp">Set đôi tình nhân</p></a>
+					<p>Mã SP:CR0015DH</p>
+					<p style="color: red;"><b>145,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp3.png" class="anh"></a>
+					<a href=""><p class="tensp">Set đôi mẹ và bé TKG</p></a>
+					<p>Mã SP:CR0198DH</p>
+					<p style="color: red;"><b>365,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp5.png" class="anh"></a>
+					<a href=""><p class="tensp">Áo đôi VK1</p></a>
+					<p>Mã SP:SM2015DH</p>
+					<p style="color: red;"><b>270,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+				<div class="thesp1">
+					<a href="#"><img align="center" src="Images\cp6.png" class="anh"></a>
+					<a href=""><p class="tensp">Áo đôi VK4</p></a>
+					<p>Mã SP:PL3241DH</p>
+					<p style="color: red;"><b>170,000 VNĐ</b></p>
+					<span style="text-align: center; width: 250px;height: 50px;">
+					<button class="butbuy" style="width: 100px;" onclick="document.getElementById('id03').style.display='block'"><span  class="	glyphicon glyphicon-shopping-cart" ></span></button>
+					<button class="butbuy" onclick="document.getElementById('mua').style.display='block'">Mua ngay</button></span>
+				</div>
+			</div>
+		</div>
+			<div class="pagination" style="float: center;margin-left: 470px;">
+			  <a href="#">&laquo;</a>
+			  <a class="bttn active" href="#">1</a>
+			  <a class="bttn" href="#">2</a>
+			  <a class="bttn" href="#">3</a>
+			  <a class="bttn" href="#">4</a>
+			  <a class="bttn" href="#">5</a>
+			  <a class="bttn" href="#">&raquo;</a>
+			</div>
+	</div>
+	</div>
+	<div class="clearfix"></div>
+	<footer style="width: 100%;">
+		<div style="padding-left: 100px; width: 100%;height:85%;">
+			<div style="float: left;padding: 30px;">
+				<h3>CHARME STORE</h3>
+				<p style="width: 400px;"><i class="fas fa-handshake"></i> Chúng tôi cam kết nỗ lực hết mình nhằm cung cấp dịch vụ và sản phẩm tốt nhất, đúng với những giá trị mà khách hàng mong đợi</p>
+				<p style="width: 400px;"><i class="fas fa-map-marker-alt"></i>Văn phòng: Đường Nam Kỳ Khởi Nghĩa, phường Hòa Quý, quận Ngũ Hành Sơn, TP Đà Nẵng</p>
+				<p><i class="fas fa-phone"></i>Số điện thoại: 0971 411 122</p>
+				<p><i class="far fa-envelope"></i>Email:cskh@charmestore.vn</p>
+			</div>
+			<div style="float: left;padding: 30px;">
+				<h3>GIỚI THIỆU</h3>
+				<p>Ý nghĩa thương hiệu</p>
+				<p>Cơ Hội Việc Làm</p>
+				<p>Hệ thống cửa hàng</p>
+			</div>
+			<div style="float: left;padding: 30px;">
+				<h3>HƯỚNG DẪN</h3>
+				<p>Hướng dẫn mua hàng</p>
+				<p>Hướng dẫn sử dụng</p>
+				<p>Chi tiết kích cỡ</p>
+				<p>Tra cứu đơn hàng</p>
+				<p>Chính sách đổi trả & bảo hành</p>
+				<p>Quy trình giao nhận và thanh toán</p>
+				<p>Chính sách thành viên</p>
+			</div>
+			<div style="float: left;padding: 30px;">
+				<h3>LIÊN HỆ</h3>
+				<p>Email: SaleOnline@CharmeStore.com.vn</p>
+				<p>Website: CharmeStore.com.vn</p>
+				<p>Facebook: CharmeStore</p>
+				<p>Zalo page: CharmeStore</p>
+				<p>Instagram: Charme_Store</p>
+				<p>Hỗ trợ: 090.1800.888</p>
+				<p>Đặt hàng: 0947.513.579</p>
+			</div>
+		</div>
+		<div align="center" style="border-top: solid white;height: 15%;width: 100%;padding-top: 20px;">
+			<span style="color: lightgray">Bản quyền © 2020 thuộc về CHARME. Tất cả các quyền được bảo lưu. </span>
+			<a href="https://www.instagram.com/"><i style="color: white" class="fab fa-instagram"></i></a>
+			<a href="https://www.messenger.com/"><i style="color: white;" class="fab fa-facebook-messenger"></i></a>
+			<a href="https://www.facebook.com/"><i style="color:white;" class="fab fa-facebook-square"></i></a>
+		</div>
+	</footer>
+
+	<div id="id01" class="modal">
+  		  <form class="modal-content animate" action="/action_page.php" method="post" style="width: 500px;margin-top: -50px;">
+		    <div class="imgcontainer">
+		      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		      <img src="Images\img_avatar2.png" alt="Avatar" class="avatar">
+		    </div>
+
+		    <div class="container" style="width: 500px;">
+		      <label for="uname"><b>Username</b></label>
+		      <input type="text" placeholder="Email/Phone number" class="username" name="uname" required>
+
+		      <label for="psw"><b>Password</b></label>
+		      <input type="password" placeholder="Enter Password" class="pass" name="psw" required>
+		        
+		      <button type="submit" id="butlog">Login</button>
+		      <label>
+		        <input type="checkbox" checked="checked" name="remember"> Remember me
+		      </label>
+		    </div>
+
+		    <div class="container" style="background-color:#f1f1f1; width: 498px;" align="center">
+		        <button style="background-color:#0000FF;height: 50px;width: 260px;border-radius: 10px;text-align: center;border: solid #0000FF;color: white;font-size: 15px; "><a href="web_cuoiky.html">
+					<i class="fab fa-facebook-square" style="color: white;font-size: 25px;"></i></a> Đăng nhập với Facebook
+				</button>
+				<br><br>
+				<button style="background-color:#FFFFFF;height: 50px;width: 260px;border-radius: 10px;text-align: center;border: solid #FFFFFF;color: white;font-size: 15px; color: black; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);" class="button1"><a href="web_cuoiky.html">
+					<i class="fab fa-google" style="color: green ;font-size: 25px;"></i></a> Sign in with Google
+				</button>
+		    </div>
+		  </form>
+	</div>
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		    if (event.target == modal) {
+		        modal.style.display = "none";
+		    }
+		}
+	</script>
+
+
+	<div id="id02" class="modal">
+		  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+		  <form class="modal-content" action="/action_page.php" style="width: 600px;margin-top: -50px;">
+		    <div class="container" style="width: 550px;">
+		      <h1>Sign Up</h1>
+		      <p>Please fill in this form to create an account.</p>
+		      <hr>
+		      <input type="text" placeholder="Họ tên" class="username" name="name" required>
+		      <input type="text" placeholder="Số điện thoại" class="SDT" name="psw" required>
+		      <input type="text" placeholder="Địa chỉ" class="diachi" name="psw-repeat" required> 
+		      <input type="text" placeholder="Email" class="email" name="email" required>
+		      <input type="password" placeholder="Password" class="pass" name="psw" required>
+		      <input type="password" placeholder="Repeat Password" class="pass" name="psw-repeat" required>     
+		      <label>
+		        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+		      </label>
+
+		      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+		      <div class="clearfix" align="center" >
+		        <button type="button" onclick="document.getElementById('id02').style.display='none'" id="cancelbtn">Cancel</button>
+		        <button type="submit" id="butsign">Sign Up</button>
+		      </div>
+		    </div>
+		  </form>
+	</div>
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id02');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+		</script>
+		<!--Hiển thị khi nhấp vào nút thêm vào giỏ hàng-->
+		<div id="id03" class="modal">
+		  <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+		  <form class="modal-content" action="/action_page.php" style="width: 550px;margin-top: -50px;">
+		    <div class="container" style="width: 550px;">
+		       <h2 style="text-align: center">Chọn đặc điểm sản phẩm</h2>
+		       <form action="/action_page.php">
+		            <label class="labels" for="fname">Màu sắc:</label>
+		            <input type="checkbox" checked="checked" style="margin-left: 20px;" > Tím
+		            <input type="checkbox" style="margin-left: 20px;"> Trắng
+		            <input type="checkbox" style="margin-left: 20px;" > Hoa cam
+		            <input type="checkbox" style="margin-left: 20px;"> Xám
+		            <label class="labels" for="email">Size:</label> 
+		            <input type="checkbox" checked="checked" style="margin-left: 20px;" >S
+		            <input type="checkbox" style="margin-left: 20px;"> M
+		            <input type="checkbox" style="margin-left: 20px;" > L
+		            <input type="checkbox" style="margin-left: 20px;"> XS
+					<br><br>
+				</form>
+
+		      <div class="clearfix" align="center" >
+		        <button type="button" onclick="document.getElementById('id03').style.display='none'" id="cancelbtn">Cancel</button>
+		        <button type="submit" onclick="GH()" id="butsign"><span  class="glyphicon glyphicon-shopping-cart" ></span></button>
+		      </div>
+		    </div>
+		  </form>
+	</div>
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id03');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+		</script>
+		<!-- Hiển thị khi nhấp chuột vào nút mua ngay-->
+		<div id="mua" class="modal">
+		  <span onclick="document.getElementById('mua').style.display='none'" class="close" title="Close Modal">&times;</span>
+		  <form class="modal-content" action="/action_page.php" style="width: 700px;margin-top: -50px;">
+		    <div class="container" style="width: 550px;">
+		       <h2 style="text-align: center">Thông tin giao hàng</h2>
+		       <form action="/action_page.php">
+		            <label class="labels" for="fname"><i class="fa fa-user"></i> Họ tên người nhận:</label>
+		            <input type="text" id="fname" name="firstname" placeholder="Nguyễn Văn A" class="textin">
+		            <label class="labels" for="email"><i class="fa fa-envelope"></i> Email</label>
+		            <input type="text" id="email" name="email" placeholder="nva2406@gmail.com" class="textin">
+		            <label class="labels" for="adr"><i class="fa fa-address-card-o"></i> Địa chỉ</label>
+		            <input type="text" id="adr" name="address" placeholder="24 Lê Duẩn, Hải Châu, Đà Nẵng" class="textin">
+		            <label class="labels" for="city"><i class="fa fa-phone"></i> Số điện thoại:</label>
+		            <input type="text" id="city" name="city" placeholder="0887-123-123" class="textin"><br>
+		        	<label style="margin: 10px;">
+		          <input type="checkbox" checked="checked" name="sameadr">Thanh toán khi nhận hàng
+		          <input type="checkbox" name="sameadr" style="margin-left: 20px;">Thẻ tín dụng/Internet Banking,...
+		        	</label>
+				</form>
+
+		      <div class="clearfix" align="center" >
+		        <button type="button" onclick="document.getElementById('mua').style.display='none'" id="cancelbtn">Cancel</button>
+		        <button type="button" onclick="document.getElementById('muatiep').style.display='block'" id="butsign">Tiếp theo</button>
+		      </div>
+		    </div>
+		  </form>
+	</div>
+	<script>
+		// Get the modal
+		var modal = document.getElementById('mua');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+		</script>
+		<div id="muatiep" class="modal">
+		  <span onclick="document.getElementById('muatiep').style.display='none'" class="close" title="Close Modal">&times;</span>
+		  <form class="modal-content" action="/action_page.php" style="width: 700px;margin-top: -50px;">
+		    <div class="container" style="width: 550px;">
+		       <h2 style="text-align: center">Chọn đặc điểm sản phẩm</h2>
+		       <form action="/action_page.php">
+		            <label class="labels" for="fname">Màu sắc:</label>
+		            <input type="checkbox" checked="checked" >Tím
+		             <input type="checkbox">Trắng
+		            <label class="labels" for="email">Size:</label>
+		            <button>S</button>
+					<button>M</button>
+					<button>XS</button><br><br>
+					<label>Phương thức giao:
+		          <input type="checkbox" checked="checked" name="sameadr">Giao hàng nhanh
+		          <input type="checkbox" name="sameadr" style="margin-left: 20px;">Giao hàng tiết kiệm
+		        	</label>
+				</form>
+
+		      <div class="clearfix" align="center" >
+		        <button type="button" onclick="document.getElementById('muatiep').style.display='none'" id="cancelbtn">Cancel</button>
+		        <button type="submit" id="butsign">Đặt hàng</button>
+		      </div>
+		    </div>
+		  </form>
+	</div>
+	<script>
+		// Get the modal
+		var modal = document.getElementById('muatiep');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+		</script>
+		<button onclick="topFunction()" id="BtnTop" title="Go to top">
+		<i class="fas fa-chevron-up"></i><br>
+		Top</button>
+		<script>
+		//Get the button
+		var buttop = document.getElementById("BtnTop");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    buttop.style.display = "block";
+		  } else {
+		    buttop.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+		</script>
+</body>
+</html>

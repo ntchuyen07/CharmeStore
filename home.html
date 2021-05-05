@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Charme - Thời trang sự kiện thiết kế dành cho giới trẻ hàng đầu Việt Nam</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="cuoiky.css">
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Charm' rel='stylesheet'>
+	<script>
+	/*Tải và hiển thị bản đồ*/
+	function myMap() {
+	  var num = new google.maps.LatLng( 15.975519, 108.250627);
+	var mapProp= {
+	  center: num, mapTypeId: google.maps.MapTypeId.HYBRID,
+	  zoom:16,
+	 
+	};
+	var maps = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+	var marker = new google.maps.Marker({ position: num, map: maps, title:"Shop thời trang Nam - Nữ CHARME STORE"});
+	}
+	$(document).ready(function(){
+	  $("#toggle").click(function(){
+	    $("#them").slideDown("slow");
+	  });
+	});
+		function GH(){
+			alert("Thêm vào giỏ thành công!")
+		}
+	</script>
+</head>
+<body onload="myMap()">
+		<div><!--Chạy Slide ảnh-->
+			<div style="width: 100%;margin-top:70px;margin-left: -20px;margin-right: -20px;">
+				<!--<img src="Images\banber1.jpg" align="center" style="width: 100%;">-->
+				<div class="container" style="width: 103%;left: 0;right: 0">
+				  <br>
+				  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			
+				    <ol class="carousel-indicators">
+				      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				      <li data-target="#myCarousel" data-slide-to="1"></li>
+				      <li data-target="#myCarousel" data-slide-to="2"></li>
+				      <li data-target="#myCarousel" data-slide-to="3"></li>
+				    </ol>
+
+				    <div class="carousel-inner" role="listbox">
+
+				      <div class="item active">
+				        <img src="Images\banber6.png" style="width: 100%; height: 700px;">
+				        <div class="carousel-caption">
+				          <h1 class="color_text">CHARME STORE</h1>
+				          <p class="color_text" style="font-size: 20px;">Hết "cách ly" mình hẹn hò đi!!!</p>
+				        </div>
+				      </div>
+
+				      <div class="item">
+				        <img src="Images\banber2.jpg"style="width: 100%; height: 700px;">
+				        <div class="carousel-caption">
+				          <h2 class="color_text">CHARME STORE</h2>
+				          <p class="color_text" style="font-size: 20px;">Hết "cách ly" mình hẹn hò đi!!!</p>
+				        </div>
+				      </div>
+				    
+				      <div class="item">
+				        <img src="Images\banber1.jpg" style="width: 100%; height:700px;">
+				        <div class="carousel-caption">
+				          <h2 class="color_text">CHARME STORE</h2>
+				          <p class="color_text" style="font-size: 20px;">Hết "cách ly" mình hẹn hò đi!!!</p>
+				        </div>
+				      </div>
+
+				      <div class="item">
+				        <img src="Images\banber4.jpg" style="width: 100%; height: 700px;">
+				        <div class="carousel-caption">
+				          <h2 class="color_text">CHARME STORE</h2>
+				          <p class="color_text" style="font-size: 20px;">Hết "cách ly" mình hẹn hò đi!!!</p>
+				        </div>
+				      </div>
+				  
+				    </div>
+
+				    
+				    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				      <span class="sr-only">Previous</span>
+				    </a>
+				    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				      <span class="sr-only">Next</span>
+				    </a>
+				  </div>
+				</div>
+			</div>
+		</div>
+	
+		<!--Sản phẩm nổi bật-->
+		<div  class="container text-center bg-grey">
+		  <h2><b>SẢN PHẨM NỔI BẬT</b></h2><br>
+		  <hr style="border-bottom: 2px solid #32CD32;width: 300px;margin-top: -20px" align="center">
+		  <p style="font-family: 'Sofia';font-size: 19px;">Gợi ý cho bạn những sản phẩm bán chạy nhất hiện nay</p>
+		  <div class="row text-center slideanim">
+		    <div class="col-sm-4">
+		      <div class="thumbnail">
+		      	<a href="About.html">
+		      	<div class="cont">
+		        <img src="Images\ttnu9.png" style="width: 100%;height: 500px;" class="img">
+				  <div class="middle"><!--Khi di chuột tới ảnh sp-->
+				    <div class="text">
+						<h3>Chi tiết sản phẩm</h3>
+						<p>Chất liệu:Chiffon</p>
+						<p>Thương hiệu: No Brand</p>
+						<p>Họa tiết: Hoa cúc</p>
+						<p>Màu: Tím</p>
+						<p>Dáng đầm:Dáng xòe</p>
+				    </div>
+				  </div>
+				</div>
+		        <p><strong>Váy Haity</strong></p>
+		        <p style="color: red;">395,000 VNĐ</p>
+		    </a>
+		      </div>
+		    </div>
+		    <div class="col-sm-4">
+		      <div class="thumbnail">
+		      	<a href="About2.html">
+		        <div class="cont">
+		        <img src="Images\ttnu10.png" style="width: 100%;height: 500px;" class="img">
+				  <div class="middle"><!--Khi di chuột tới ảnh sp-->
+				    <div class="text">
+						<h3>Chi tiết sản phẩm</h3>
+						<p>Chất liệu:Chiffon</p>
+						<p>Thương hiệu: No Brand</p>
+						<p>Họa tiết:Hoa nhí trơn</p>
+						<p>Màu: Hoa cam</p>
+						<p>Dáng đầm:Dáng xòe, trễ vai</p>
+				    </div>
+				  </div>
+				</div>
+		        <p><strong>Váy Molica</strong></p>
+		        <p style="color: red;">395,000 VNĐ</p>
+		    	</a>
+		      </div>
+		    </div>
+		    <div class="col-sm-4">
+		      <div class="thumbnail">
+		      	<a href="#">
+		        <div class="cont">
+		        <img src="Images\ttnu11.png" style="width: 100%;height: 500px;" class="img">
+				  <div class="middle"><!--Khi di chuột tới ảnh sp-->
+				    <div class="text">
+						<h3>Chi tiết sản phẩm</h3>
+						<p>Chất liệu:Cotton</p>
+						<p>Thương hiệu: No Brand</p>
+						<p>Họa tiết: Trơn</p>
+						<p>Màu: Xanh</p>
+						<p>Dáng đầm:Dáng xòe</p>
+				    </div>
+				  </div>
+				</div>
+		        <p><strong>Váy Jasmine</strong></p>
+		        <p style="color: red;">395,000 VNĐ</p>
+		    	</a>
+		      </div>
+		    </div>
+		  </div><br>
+		</div>
+
+		<!--Giới thiệu về chúng tôi-->
+		<div id="services" class="container-fluid text-center" style="background-color: #F5F5F5;padding-bottom: 100px;padding-top: 100px;">
+		  <h2><b>VỀ CHÚNG TÔI</b></h2>
+		  <h4>What we offer</h4>
+		  <br>
+		  <div class="row slideanim">
+		    <div class="col-sm-3">
+		      <i class="fas fa-truck" style="font-size: 50px;color: #DC143C; padding-bottom: 10px;"></i>
+		        <h4><b>SHIP HÀNG</b></h4>
+		        <p>Giao hàng nhanh chóng</p>
+		        <p>Miễn phí ship đơn từ 500k</p>
+		    </div>
+		    <div class="col-sm-3">
+		      <i class="fas fa-undo-alt" style="font-size: 50px;color: #DC143C; padding-bottom: 10px;"></i>
+		        <h4><b>ĐỔI TRẢ</b></h4>
+		        <p>Đổi trả nguyên giá trong 7 ngày</p>
+		        <p>Miễn phí đổi trả do lỗi shop</p>
+		    </div>
+		    <div class="col-sm-3">
+		      <i class="far fa-copyright" style="font-size: 50px;color: #DC143C; padding-bottom: 10px;"></i>
+		        <h4><b>CHÍNH HÃNG</b></h4>
+		        <p>Sản phẩm đảm bảo chính hãng</p>
+		        <p>Hàng thiết kế do chính shop may</p>
+		    </div>
+		    <div class="col-sm-3">
+		      <i class="far fa-smile" style="font-size: 50px;color: #DC143C; padding-bottom: 10px;"></i>
+		        <h4><b>PHỤC VỤ</b></h4>
+		        <p>Nhân viên thân thiện</p>
+		        <p>Tư vấn nhanh chóng</p>
+		    </div>
+		</div>
+		</div>
+
+		
+		<!--Sản phẩm thời trang nữ-->
+		<div  class="container-fluid text-center bg-grey">
+		  <h2><b>THỜI TRANG NỮ</b></h2><br>
+		  <hr style="border-bottom: 2px solid #32CD32;width: 300px;margin-top: -20px" align="center">
+		  <p style="font-family: 'Sofia';font-size: 19px;">Các sản phẩm dành riêng cho nàng</p>
+		  <div class="row text-center slideanim">
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <a href="About1.html"><img src="Images\ttnu7.png" style="width: 100%;height: 450px;"></a>
+		        <p><strong>Váy Redday</strong></p>
+		        <p style="color: red;">395,000 VNĐ</p>
+		        <button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <a href="About2.html"><img src="Images\ttnu8.png" style="width: 100%;height: 450px;"></a>
+		        <p><strong>Váy Lanin</strong></p>
+		        <p style="color: red;">595,000 VNĐ</p>
+		        <button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <img src="Images\ttnu17.png" style="width: 100%;height: 450px;">
+		        <p><strong>Váy tiểu thư</strong></p>
+		        <p style="color: red;">300,000 VNĐ</p>
+		        <button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <img src="Images\ttnu11.png" style="width: 100%;height: 450px;">
+		        <p><strong>Váy Jasmine</strong></p>
+		        <p style="color: red;">395,000 VNĐ</p>
+				<button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		  </div><br>
+		  <p align="center" style="margin-top: -30px;margin-bottom: 50px">Xem tất cả <a href="women.html" style="color: green;">Thời trang Nữ >></a></p>
+		</div>
+
+		
+		<!--Sản phẩm thời trang nam-->
+		<div  class="container-fluid text-center bg-grey">
+		  <h2><b>THỜI TRANG NAM</b></h2><br>
+		  <hr style="border-bottom: 2px solid #32CD32;width: 300px;margin-top: -20px" align="center">
+		  <p style="font-family: 'Sofia';font-size: 19px;">Lựa chọn tuyệt vời cho đấng mày râu</p>
+		  <div class="row text-center slideanim">
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <a href="Aboutnam.html"><img src="Images\ttnam6.png" style="width: 100%;height: 450px;"></a>
+		        <p><strong>Áo polo nam xám</strong></p>
+		        <p style="color: red;">170,000 VNĐ</p>
+		        <button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <img src="Images\ttnam2.png" style="width: 100%;height: 450px;">
+		        <p><strong>Quần tây trắng</strong></p>
+		        <p style="color: red;">295,000 VNĐ</p>
+		        <button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <img src="Images\ttnam3.png" style="width: 100%;height: 450px;">
+		        <p><strong>Áo khoác gió dù</strong></p>
+		        <p style="color: red;">365,000 VNĐ</p>
+		        <button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <img src="Images\ttnam5.png" style="width: 100%;height: 450px;">
+		        <p><strong>Quần nỉ vạch trắng</strong></p>
+		        <p style="color: red;">270,000 VNĐ</p>
+		        <button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		  </div><br>
+		  <p align="center" style="margin-top: -30px;margin-bottom: 50px">Xem tất cả <a href="men.html" style="color: green;">Thời trang Nam >></a></p>
+		</div>
+
+
+		<!--Sản phẩm thời trang couple-->
+		<div  class="container-fluid text-center bg-grey">
+		  <h2><b>THỜI TRANG COUPLE</b></h2><br>
+		  <hr style="border-bottom: 2px solid #32CD32;width: 300px;margin-top: -20px" align="center">
+		  <p style="font-family: 'Sofia';font-size: 19px;">Hẹn hò thật ngọt ngào cùng CHARME</p>
+		  <div class="row text-center slideanim">
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <a href="Aboutcouple.html"><img src="Images\cp4.png" style="width: 100%;height: 450px;"></a>
+		        <p><strong>Set bạn thân JKD</strong></p>
+		        <p style="color: red;">250,000 VNĐ</p>
+		        <button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <img src="Images\cp1.png" style="width: 100%;height: 450px;">
+		        <p><strong>Set cổ trang CT</strong></p>
+				<p style="color: red;">265,000 VNĐ</p>
+				<button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <img src="Images\cp2.png" style="width: 100%;height: 450px;">
+		        <p><strong>Set đôi tình nhân</strong></p>
+		        <p style="color: red;">145,000 VNĐ</p>
+		        <button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		    <div class="col-sm-3">
+		      <div class="thumbnail">
+		        <img src="Images\cp3.png" style="width: 100%;height: 450px;">
+		        <p><strong>Set đôi mẹ và bé TKG</strong></p>
+		        <p style="color: red;">365,000 VNĐ</p>
+		        <button class="btn-buy" onclick="document.getElementById('id03').style.display='block'">Thêm vào giỏ hàng</button>
+		      </div>
+		    </div>
+		  </div><br>
+		  <p align="center" style="margin-top: -30px;margin-bottom: 50px">Xem tất cả <a href="couple.html" style="color: green;">Thời trang Couple >></a></p>
+		</div>
+		
+
+		<!--Khách hàng nói gì về chúng tôi-->
+		<div class="container slideshow-container text-center" >
+			<h1><b>Khách hàng chúng tôi nói gì?</b></h1>
+				<div class="mySlides">
+				   <img src="Images\me.jpg" alt="Avatar" class="avatar" style="width: 100px;height: 100px; text-align: center;margin-top: -20px"><br><br>
+				  <q style="font-family: 'Charm'">Váy xinh lắm ạ. Nhân viên tư vấn nhiệt tình, sẽ ủng hộ shop dài dài</q>
+				  <p class="author">Nguyễn Thị Cẩm Huyền - <i> Posted on May 1, 2020 | Phân loại:Váy hoa nhí,S</i></p>
+				</div>
+
+				<div class="mySlides">
+					<img src="Images\avat1.jpg" alt="Avatar" class="avatar" style="width: 100px;height: 100px; text-align: center;">
+					<br><br>
+				  <q style="font-family: 'Charm'">Đã nhận hàng! Áo đẹp, shop phục vụ nhiệt tình. Chất lượng 5 sao là quá hợp lí</q>
+				  <p class="author">Thanh Phong - <i> Posted on February 21, 2020 | Phân loại:Áo polo nam trơn,L</i></p>
+				</div>
+
+				<div class="mySlides">
+					<img src="Images\avat2.jpg" alt="Avatar" class="avatar" style="width: 100px;height: 100px; text-align: center;"><br><br>
+				  <q style="font-family: 'Charm'">Áo mặc đẹp, form vừa người, vải cũng chất lượng nữa. Nói chung OK</q>
+				  <p class="author">Huy Hoàng - <i> Posted on Math 5, 2020 | Phân loại:Áo sơ mi trắng,L</i></p>
+				</div>
+
+				<div class="mySlides">
+					<img src="Images\avat3.jpg" alt="Avatar" class="avatar" style="width: 100px;height: 100px; text-align: center;"><br><br>
+				  <q style="font-family: 'Charm'">I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+				  <p class="author"> John Keats - <i> Posted on February 17, 2020 | Phân loại:Áo sơ mi trắng,L</i></p>
+				</div>
+
+				<div class="mySlides">
+					<img src="Images\avat4.jpg" alt="Avatar" class="avatar" style="width: 100px;height: 100px; text-align: center;"><br><br>
+				  <q style="font-family: 'Charm'">Váy đẹp, nhân viên phục vụ nhiệt tình. Sẽ ủng hộ shop nhiều hơn nữa</q>
+				  <p class="author">Nga Lê - <i> Posted on February 21, 2020 | Phân loại:Váy cloud dress,M</i></p>
+				</div>
+		</div>
+		
+		<!--Hiển thị chấm tròn để đọc phản hồi-->
+		<div class="dot-container">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(4)"></span> 
+		  <span class="dot" onclick="currentSlide(5)"></span> 
+		</div>
+		<!--Chương trình JS chạy Phản hồi-->
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+		</script>
+		<!--Nút contact bên trang-->
+		<div id="mySidenav">
+			<a id="ThemPH" style="background-color: #FF8C00;" onclick="openCT()"><span class="fas fa-paper-plane" style="margin-right: 15px;font-size: 20px;"></span>   Contact</a>
+		</div>
+		<!--Form liên hệ của khách hàng-->
+		<div class="form-popup" id="myFeedback" style="display: none;">
+			  <form action="/action_page.php" class="form-container">
+			  	<h2>CONTACT</h2>
+			    <input type="text" name="" placeholder="Tên của bạn" class="in-text"><br>
+			    <input type="text" name="" placeholder="Email hoặc Số điện thoại">
+			    <textarea rows="3" cols="50" placeholder="Bạn cần giúp gì?"></textarea>
+			    <label><i style="color: cornflowerblue;font-size: 13px;">Tin nhắn thường được trả lời trong vòng vài giờ. Chúng tôi sẽ sớm liên lạc với bạn. Chân thành cảm ơn</i></label><br><br>
+			    <button type="submit" class="btn">SEND</button>
+			    <button type="button" class="btn cancel" onclick="closeCT()">Cancel</button>
+			  </form>
+		</div>
+		<!--Chương trình JS mở/đóng Form Contact-->
+		<script>
+			function openCT() {
+			  document.getElementById("myFeedback").style.display = "block";
+			}
+
+			function closeCT() {
+			  document.getElementById("myFeedback").style.display = "none";
+			}
+		</script>
+
+
+		<!--Bản đồ vị trí cửa hàng-->
+		<div id="map" class="container-fluid text-center" style="padding-top: 30px;background-color: #F5F5F5;margin-bottom: 30px;">
+			<div style="height: 100px; width: 100%;" align="center">
+				<h2 style="color: #2BBBD8"><b>HỆ THỐNG CỬA HÀNG</b></h2>
+				<h3 style="color: #2BBBD8">Địa chỉ cửa hàng</h3>
+			</div>
+			<div id="googleMap" style="width:85%;height:500px;margin: 100px;margin-top: 10px;margin-bottom: 30px;"></div>
+			 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+			 <div style="margin: 100px;margin-top: 0px;">
+			  	<p style="font-size: 17px;">Với mong muốn mang đến cho khách hàng sự trải nghiệm tốt nhất khi mua sắm các sản phẩm thời trang, trong thời gian qua không ngừng mở rộng các cửa hàng trên mọi miền đất nước.</p>
+
+				<p style="font-size: 17px;">Năm 2020, mục tiêu của chúng tôi sẽ tiếp tục mở thêm nhiều hệ thống cửa hàng nữa để đem đến cho khách hàng những sản phẩm thời trang phù hợp với nhu cầu, giá cả tốt nhất và dịch vụ hoàn hảo.</p>
+
+				<p style="font-size: 17px;">Mời bạn xem một số hình ảnh sinh động tại cửa hàng.</p>
+			 </div>
+		</div>
+		<!--Đăng kí Email để theo dõi-->
+		<div class="container-fluid text-center" style="padding: 50px;margin-bottom: 50px;">
+			<h2><b>Theo dõi</b></h2>
+			<p style="font-size: 18px;">Để nhận thông tin khuyến mãi từ Charme Store</p>
+			<form action="/action_page.php">
+				<input type="text" name="" placeholder="Địa chỉ Email" class="Email">
+				<button class="dkEmail">Đăng ký</button>
+			</form>
+		</div>
+	</div>
+
+	<!--Thẻ menu đầu trang-->
+	<nav class="navbar navbar-default" style="background-color:white;padding-left: 20px;color: white; height: 100px;width: 100%;position: fixed;border-radius: 0 0 50px 50px;top: 0;left: 0">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <li><img src="Images\logo_charme.png" width="220px" height="100px" style=" padding-right: 50px;"></li>
+	    </div>
+
+	    <ul class="nav nav-tabs" style="padding-top: 30px;border: none;">
+	      <li><a  href="home.html" style="color: black;">HOME</a></li>
+	      <li><a  href="Feedback.html" style="color: black;">FEEDBACK</a></li>
+	      <li><a  href="Blog.html" style="color: black;">BLOG</a></li>
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">NAM <span class="caret"></span></a>
+	        <ul class="dropdown-content">
+	          <li><a href="men.html">Tất cả </a></li>
+	          <li><a href="#">Áo </a></li>
+	          <li><a href="#">Áo khoác</a></li>
+	          <li><a href="#">Quần</a></li>
+	          <li><a href="#">Đồ bộ</a></li>
+	          <li><a href="#">Đồ đôi</a></li>
+	        </ul>
+	      </li>
+	     
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">NỮ<span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="women.html">Tất cả </a></li>
+	          <li><a href="#">Áo </a></li>
+	          <li><a href="#">Áo khoác</a></li>
+	          <li><a href="#">Quần</a></li>
+	          <li><a href="#">Váy</a></li>
+	          <li><a href="#">Váy thiết kế</a></li>
+	          <li><a href="#">Đồ bộ</a></li>
+	          <li><a href="#">Đồ đôi</a></li>
+	        </ul>
+	      </li>
+	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: black;">ĐỒ ĐÔI <span class="caret"></span></a>
+	        <ul class="dropdown-menu">
+	          <li><a href="couple.html">Tất cả </a></li>
+	          <li><a href="#">Áo đôi</a></li>
+	          <li><a href="#">Set đôi</a></li>
+	        </ul>
+	      </li>      
+	      <li style="padding-left: 10px;"><input type="text" name="Search" class="timkiem" placeholder="   Bạn cần tìm gì?"></li>
+	    </ul>
+
+	    <ul class="navbar-right" style="margin-top: -80px;">
+	      <li><a href="Giohang.html" class="notification" style="color: black;"><span class="	glyphicon glyphicon-shopping-cart"></span> Giỏ hàng<span style="background-color: red;position: absolute;top: -10px;right: -10px;padding: 5px 10px;border-radius: 50%;
+	  color: white;">3</span></a></li>
+	      <li onclick="document.getElementById('id02').style.display='block'" style="width:auto;"><a style="color: black;"><span class="glyphicon glyphicon-user"></span>Sign up</a></li>
+	      <li onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><a style="color: black;"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	    </ul>
+	  </div>
+	</nav>
+	
+	<!--Chân trang web-->	
+	<div class="clearfix"></div>
+	<footer class="container-fluid">
+		<div style="padding-left: 100px; width: 100%;height:85%;">
+			<div style="float: left;padding: 30px;">
+				<h3>CHARME STORE</h3>
+				<p style="width: 400px;"><i class="fas fa-handshake"></i> Chúng tôi cam kết nỗ lực hết mình nhằm cung cấp dịch vụ và sản phẩm tốt nhất, đúng với những giá trị mà khách hàng mong đợi</p>
+				<p style="width: 400px;"><i class="fas fa-map-marker-alt"></i>Văn phòng: Đường Nam Kỳ Khởi Nghĩa, phường Hòa Quý, quận Ngũ Hành Sơn, TP Đà Nẵng</p>
+				<p><i class="fas fa-phone"></i>Số điện thoại: 0971 411 122</p>
+				<p><i class="far fa-envelope"></i>Email:cskh@charmestore.vn</p>
+			</div>
+			<div style="float: left;padding: 30px;">
+				<h3>GIỚI THIỆU</h3>
+				<p>Ý nghĩa thương hiệu</p>
+				<p>Cơ Hội Việc Làm</p>
+				<p>Hệ thống cửa hàng</p>
+			</div>
+			<div style="float: left;padding: 30px;">
+				<h3>HƯỚNG DẪN</h3>
+				<p>Hướng dẫn mua hàng</p>
+				<p>Hướng dẫn sử dụng</p>
+				<p>Chi tiết kích cỡ</p>
+				<p>Tra cứu đơn hàng</p>
+				<p>Chính sách đổi trả & bảo hành</p>
+				<p>Quy trình giao nhận và thanh toán</p>
+				<p>Chính sách thành viên</p>
+			</div>
+			<div style="float: left;padding: 30px;">
+				<h3>LIÊN HỆ</h3>
+				<p>Email: SaleOnline@CharmeStore.com.vn</p>
+				<p>Website: CharmeStore.com.vn</p>
+				<p>Facebook: CharmeStore</p>
+				<p>Zalo page: CharmeStore</p>
+				<p>Instagram: Charme_Store</p>
+				<p>Hỗ trợ: 090.1800.888</p>
+				<p>Đặt hàng: 0947.513.579</p>
+			</div>
+		</div>
+		<div align="center" style="border-top: solid white;height: 15%;width: 100%;padding-top: 20px;">
+			<span style="color: lightgray">Bản quyền © 2020 thuộc về CHARME. Tất cả các quyền được bảo lưu. </span>
+			<a href="https://www.instagram.com/"><i style="color: white" class="fab fa-instagram"></i></a>
+			<a href="https://www.messenger.com/"><i style="color: white;" class="fab fa-facebook-messenger"></i></a>
+			<a href="https://www.facebook.com/"><i style="color:white;" class="fab fa-facebook-square"></i></a>
+		</div>
+	</footer>
+	
+	<!--Form đăng nhập-->
+	<div id="id01" class="modal">
+  		  <form class="modal-content animate" action="/action_page.php" method="post" style="width: 500px;margin-top: -50px;">
+		    <div class="imgcontainer">
+		      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		      <img src="Images\img_avatar2.png" alt="Avatar" class="avatar">
+		    </div>
+
+		    <div class="container" style="width: 500px;">
+		      <label for="uname"><b>Username</b></label>
+		      <input type="text" placeholder="Email/Phone number" class="username" name="uname" required>
+
+		      <label for="psw"><b>Password</b></label>
+		      <input type="password" placeholder="Enter Password" class="pass" name="psw" required>
+		        
+		      <button type="submit" id="butlog">Login</button>
+		      <label>
+		        <input type="checkbox" checked="checked" name="remember"> Remember me
+		      </label>
+		    </div>
+
+		    <div class="container" style="background-color:#f1f1f1; width: 498px;" align="center">
+		        <button style="background-color:#0000FF;height: 50px;width: 260px;border-radius: 10px;text-align: center;border: solid #0000FF;color: white;font-size: 15px; "><a href="web_cuoiky.html">
+					<i class="fab fa-facebook-square" style="color: white;font-size: 25px;"></i></a> Đăng nhập với Facebook
+				</button>
+				<br><br>
+				<button style="background-color:#FFFFFF;height: 50px;width: 260px;border-radius: 10px;text-align: center;border: solid #FFFFFF;color: white;font-size: 15px; color: black; box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);"><a href="web_cuoiky.html">
+					<i class="fab fa-google" style="color: green ;font-size: 25px;"></i></a> Sign in with Google
+				</button>
+		    </div>
+		  </form>
+	</div>
+	<!--Chương trình JS đóng, mở Form đăng nhập-->
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id01');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		    if (event.target == modal) {
+		        modal.style.display = "none";
+		    }
+		}
+	</script>
+
+	<!--Form đăng ký-->
+	<div id="id02" class="modal">
+		  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+		  <form class="modal-content" action="/action_page.php" style="width: 600px;margin-top: -50px;">
+		    <div class="container" style="width: 550px;">
+		      <h1>Sign Up</h1>
+		      <p>Please fill in this form to create an account.</p>
+		      <hr>
+		      <input type="text" placeholder="Họ tên" class="username" name="name" required>
+		      <input type="text" placeholder="Số điện thoại" class="SDT" name="psw" required>
+		      <input type="text" placeholder="Địa chỉ" class="diachi" name="psw-repeat" required> 
+		      <input type="text" placeholder="Email" class="email" name="email" required>
+		      <input type="password" placeholder="Password" class="pass" name="psw" required>
+		      <input type="password" placeholder="Repeat Password" class="pass" name="psw-repeat" required>     
+		      <label>
+		        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+		      </label>
+
+		      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+		      <div class="clearfix" align="center" >
+		        <button type="button" onclick="document.getElementById('id02').style.display='none'" id="cancelbtn">Cancel</button>
+		        <button type="submit" id="butsign">Sign Up</button>
+		      </div>
+		    </div>
+		  </form>
+	</div>
+	<!--Chương trình JS đóng, mở Form đăng ký-->
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id02');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+	</script>
+		
+		<!--Hiển thị khi nhấp vào nút thêm vào giỏ hàng-->
+	<div id="id03" class="modal">
+		  <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+		  <form class="modal-content" action="/action_page.php" style="width: 550px;margin-top: -50px;">
+		    <div class="container" style="width: 550px;">
+		       <h2 style="text-align: center">Chọn đặc điểm sản phẩm</h2>
+		       <form action="/action_page.php">
+		            <label class="labels" for="fname">Màu sắc:</label>
+		            <input type="checkbox" checked="checked" style="margin-left: 20px;" > Tím
+		            <input type="checkbox" style="margin-left: 20px;"> Trắng
+		            <input type="checkbox" style="margin-left: 20px;" > Hoa cam
+		            <input type="checkbox" style="margin-left: 20px;"> Xám
+		            <label class="labels" for="email">Size:</label> 
+		            <input type="checkbox" checked="checked" style="margin-left: 20px;" >S
+		            <input type="checkbox" style="margin-left: 20px;"> M
+		            <input type="checkbox" style="margin-left: 20px;" > L
+		            <input type="checkbox" style="margin-left: 20px;"> XS
+					<br><br>
+				</form>
+
+		      <div class="clearfix" align="center" >
+		        <button type="button" onclick="document.getElementById('id03').style.display='none'" id="cancelbtn">Cancel</button>
+		        <button type="submit" onclick="GH()" id="butsign"><span  class="glyphicon glyphicon-shopping-cart" ></span></button>
+		      </div>
+		    </div>
+		  </form>
+	</div>
+	<!--Chương trình JS đóng, mở Form thêm vào giỏ-->
+	<script>
+		// Get the modal
+		var modal = document.getElementById('id03');
+
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+	</script>
+
+		<!--Tạo nút trở lại đầu trang-->
+	<button onclick="topFunction()" id="BtnTop" title="Go to top">
+		<i class="fas fa-chevron-up"></i><br>
+		Top</button>
+	<script>
+		//Get the button
+		var buttop = document.getElementById("BtnTop");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    buttop.style.display = "block";
+		  } else {
+		    buttop.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+</html>
